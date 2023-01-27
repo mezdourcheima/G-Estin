@@ -1,0 +1,164 @@
+/* CSS */
+.container {
+  display: flex;
+  justify-content : space-between;
+}
+
+.left-column {
+  
+  flex: 1; /* This will make the columns take up equal space */
+ 
+  margin-left: 110px;
+  
+
+ 
+}
+
+.right-column {
+  
+  flex: 1; /* This will make the columns take up equal space */
+  margin-right: 100px;
+
+ 
+}
+.vertical-line {
+  border-right: 1px solid #42506B; /* This will create a vertical line with 1px width and black color */
+  height: 100%; /* This will make the line take up the full height of the container */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1{
+  font-size: 18 ;
+  font-weight: 700;
+}
+
+
+.button {
+  position: absolute;
+  top: 66%;
+  left: 25px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+.input-border {
+  border: 0.2px thick #000;
+  border-radius: 4.84px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.body , .button, .input{
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+/* Styles for the sidebar container */
+.sidebar {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  padding: 20px;
+ 
+  
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 100px;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+}
+.buttonAcc{
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  align-items: center;
+  height: 89px;
+  padding-right: 100px;
+  justify-content: flex-end; /* aligns the icons container to the right */
+  background-color: #ffffff;
+  color: white;
+}
+
+.navbar a {
+  color: #3E619B;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+
+.navbar-right {
+  display: flex;
+}
+.navbar-right svg {
+  margin-left: 10px;
+}
+
+.icons-container {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.icons-container a {
+  margin-right: 40px; /* increase this value to add more space */
+}
+
+.custom-row:not(:last-child) {
+  border-bottom: 2px solid #EEEEEE;
+  justify-content: space-between;
+} 
+
+.thead {
+  background-color: #ffffff;
+}
+
+.status-button {
+  background-color: #FFC5C5; 
+  border: 1px double #DF0404;
+  border-radius: 4px;
+  line-height: 2px; 
+  color: #DF0404;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 101px;
+  height: 26px;
+}
+
+
+
+
+    
