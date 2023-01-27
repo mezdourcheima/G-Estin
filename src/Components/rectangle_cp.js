@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { faCaretDown} from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faCaretRight} from '@fortawesome/free-solid-svg-icons';
+import { faCaretLeft} from '@fortawesome/free-solid-svg-icons';
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -98,6 +102,11 @@ const RectangleCP = () => {
     
         </table>
         <p style={{textAlign: "Justify", fontSize: "0.5em" ,color:"#B5B7C0" ,marginLeft:"42.79px", marginTop:"29.13px"}}>5 sur 12 comites existantes</p>
+        <button style={{position: 'absolute',bottom: '80px',right: '80px', backgroundColor:"#EEEEEE", width: '29px', height: '29px', color:"white", fontSize:"14px", fontWeight:"Bold" ,borderRadius:"4px", border: "None" }}>  <FontAwesomeIcon  color='#3D3C42'  icon={faCaretRight}/> </button>
+        <button style={{position: 'absolute',bottom: '80px',right: '130px', backgroundColor:"#EEEEEE", width: '29px', height: '29px', color:"white", fontSize:"14px", fontWeight:"Bold" ,borderRadius:"4px", border: "None" }}>3</button>
+        <button style={{position: 'absolute',bottom: '80px',right: '180px', backgroundColor:"#EEEEEE", width: '29px', height: '29px', color:"white", fontSize:"14px", fontWeight:"Bold" ,borderRadius:"4px", border: "None" }}>2</button>
+        <button style={{position: 'absolute',bottom: '80px',right: '230px', backgroundColor:"#EEEEEE", width: '29px', height: '29px', color:"white", fontSize:"14px", fontWeight:"Bold" ,borderRadius:"4px", border: "None" }}>1</button>
+        <button style={{position: 'absolute',bottom: '80px',right: '280px', backgroundColor:"#EEEEEE", width: '29px', height: '29px', color:"white", fontSize:"14px", fontWeight:"Bold" ,borderRadius:"4px", border: "None" }}>  <FontAwesomeIcon  color='#3D3C42'  icon={faCaretLeft} /> </button>
     </div>
   );
 };
